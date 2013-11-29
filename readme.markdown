@@ -7,8 +7,8 @@ return the number of bytes in a unicode string
 # example
 
 ``` js
-var bytes = require('utf8-length');
-console.log(bytes('¡dooq dǝǝq'));
+var length = require('utf8-length');
+console.log(length('¡dooq dǝǝq'));
 ```
 
 result:
@@ -21,19 +21,19 @@ $ node example/beep.js
 # methods
 
 ``` js
-var bytes = require('utf8-length')
+var length = require('utf8-length')
 ```
 
-## bytes(string)
+## length(string)
 
-Return the number of bytes needed to store `string`.
+Return the number of bytes needed to store `string` in UTF-8 encoding.
 
 # install
 
 With [npm](https://npmjs.org) do:
 
 ```
-npm install utf8-bytes
+npm install utf8-length
 ```
 
 # license
